@@ -12,7 +12,7 @@
 | Уникальных ответов    |49161  |
 | Уникальные контексты    | 13728   |
 
-Структура датасета выглядит так:
+Структура датасета:
 | id | cluster | title | context | question | answers | answers_start | answers_end |
 |----------|----------|----------|----------|----------|----------|----------|----------|
 | unique ID | lots of common themes | lots of specific topics | context  | question | answers  | answer start index in context | answer end index in context  |
