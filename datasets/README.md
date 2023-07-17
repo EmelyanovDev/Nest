@@ -1,3 +1,4 @@
+# NestQuad
 Это датасет, который является объединением Sberquad и нашего датасета, созданного при помощи метода wizard. Используется для Q&A системы
 | <!-- -->      | <!-- -->        |
 |----------|----------|
@@ -14,5 +15,11 @@
 
 Структура датасета:
 | id | cluster | title | context | question | answers | answers_start | answers_end |
-|----------|----------|----------|----------|----------|----------|----------|----------|
-| unique ID | lots of common themes | lots of specific topics | context  | question | answers  | answer start index in context | answer end index in context  |
+|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
+| Уникальный ID | Множество общих тем | Множество конкретных тем | Контекст | Вопрос | Ответ | Начало ответа в контексте | Конец ответа в контексте  |
+
+
+| Источники|
+|----------|
+| Sberquad (huggingface) - https://huggingface.co/datasets/sberquad |
+| Информация про туризм - https://tour-poisk.com/articles/, https://www.sravni.ru/enciklopediya/turizm/oteli/   |
