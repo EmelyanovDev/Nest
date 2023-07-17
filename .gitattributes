@@ -1,3 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 datasets/nest_sber_quad.csv filter=lfs diff=lfs merge=lfs -text
+*.xlsx filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
